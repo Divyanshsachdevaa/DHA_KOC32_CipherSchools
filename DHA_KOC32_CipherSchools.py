@@ -10,7 +10,7 @@ if 0<=N<=360:
 else:
     print("Cut the cake in",N,"pieces if any size: Not Possible")   
 
-if N(N+1)/2<=360:
+if N*N+1<=720:
     print("Cut the cake in",N,"pieces such that no two of them are equal: Possible")   
 else:
     print("Cut the cake in",N,"pieces such that no two of them are equal: Not Possible")
